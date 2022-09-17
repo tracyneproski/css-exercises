@@ -1,0 +1,25 @@
+/* styles.css */
+
+.odd {
+    background-color: rgb(239, 174, 185);
+    font-size: 14px;
+    color: black;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#blue {
+    background-color: #ffffff;
+    color: rgb(30, 30, 171);
+    font-size: 36px;
+}
+
+#green {
+    background-color: rgb(166, 234, 166);
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+}

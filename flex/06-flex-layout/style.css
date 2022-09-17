@@ -5,16 +5,55 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(211, 211, 211);
+}
+
+.left-links, .right-links {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 12px;
+  gap: 20px;  
 }
 
 img {
   width: 600px;
 }
 
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+ul {
+  list-style-type: none;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding: 6px 12px;
   background: #eee;
 }
 
